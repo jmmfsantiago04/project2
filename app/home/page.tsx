@@ -1,6 +1,6 @@
 "use client"
 import Footer from '@/components/Footer';
-import Header from '../components/Header';
+import Header from '@/components/Header';
 import Link from 'next/link';
 
 const Home: React.FC = () => {
@@ -25,7 +25,7 @@ const Home: React.FC = () => {
           </p>
         </div>
         <div className="text-center mt-4">
-          <Link href="/more-info" legacyBehavior>
+          <Link href="/about" legacyBehavior>
             <a className="inline-block bg-green-200 text-black py-2 px-4 rounded-lg">
               더보기
             </a>
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
         </div>
         <div className="text-center mt-8">
           <h2 className="text-xl font-semibold">시공사례</h2>
-          <Link href="/more-images" legacyBehavior>
+          <Link href="/after-construction" legacyBehavior>
             <a className="inline-block bg-green-200 text-black py-2 px-4 rounded-lg">
               이미지 더보기
             </a>
